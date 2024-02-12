@@ -12,14 +12,14 @@
             padding: 60px 0;
         }
     </style>
-    <title>Formation HTML/CSS</title>
+    <title>Reader domain's</title>
 </head>
 <body>
 <!--    Barre de navigation-->
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#index">Nom site</a>
+            <a class="navbar-brand" href="#index">Reader Domain's</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,7 +36,7 @@
                         <a class="nav-link active" href="#contact">Contact</a>
                     </li>
                     <li class="d-grid gap-2">
-                        <button class="btn btn-outline-primary" type="button" >Abonnement</button>
+                        <a class="btn btn-outline-primary" type="button" href="#tarifs" >Abonnement</a>
                     </li>
                 </ul>
             </div>
@@ -60,14 +60,14 @@
                             perferendis possimus praesentium, rem repudiandae soluta suscipit.
                         </p>
                         <button class="btn btn-primary">
-                            <a href="#" class="text-white text-decoration-none"> Acheter </a>
+                            <a href="#tarifs" class="text-white text-decoration-none"> Abonnement </a>
                         </button>
                     </div>
                 </div>
 
                 <div class="d-none d-md-block mx-auto col-md-0 flex-fill ms-4" style="width: 50px; ">
                     <div class="col">
-                        <img src="../assets/images/lire-manga-guadeloupe.jpg" height="313" class="card-img-top  " alt="...">
+                        <img src="../assets/images/lire-manga-guadeloupe.jpg" height="313" class="card-img-top  " alt="logo">
                     </div>
                 </div>
             </div>
@@ -79,12 +79,14 @@
         <div class="row row-cols-1 row-cols-lg-3 mt-4 text-center align-items-center ms-1 me-1">
             <div class="col h-75">
                 <div class="card">
-                    <img src="#" class="card-img-top" alt="">
+                    <div class="card-header text-primary d-none d-lg-block">
+                        <img class="" src="./assets/images/goku_ssj1.png" alt="goku" style="width: 100px; height: 200px">
+                    </div>
                     <div class="card-body">
-                        <h1 class="card-title">Card title</h1>
-                        <h5 class="card-title text-body-tertiary">Card title</h5>
-                        <h1 class="card-title text-primary">Prix</h1>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h1 class="card-title">Abonnement gratuit</h1>
+                        <h5 class="card-title text-body-tertiary">Avec Pub</h5>
+                        <h1 class="card-title text-primary">Gratuit</h1>
+                        <p class="card-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, eum.</p>
                         <button class="btn btn-primary">
                             <a href="#" class="text-white text-decoration-none"> Acheter </a>
                         </button>
@@ -93,15 +95,18 @@
             </div>
             <div class="col">
                 <div class="card border-primary">
-                    <div class="card-header text-primary">
+                    <div class="card-header text-primary ">
+                        <div  class="d-none d-lg-flex justify-content-center">
+                            <img src="./assets/images/goku-ssj-blue.png" alt="goku ssj1" style="width: 100px; height: 200px">
+                        </div>
                         <p>Le plus populaire</p>
                     </div>
                     <img src="#" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h1 class="card-title">Card title</h1>
-                        <h5 class="card-title text-body-tertiary">Card title</h5>
-                        <h1 class="card-title text-primary">Prix</h1>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h1 class="card-title">Abonnement Prenium</h1>
+                        <h5 class="card-title text-body-tertiary">Sans Pub</h5>
+                        <h1 class="card-title text-primary">4.99 €</h1>
+                        <p class="card-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, non.</p>
                         <button class="btn btn-primary">
                             <a href="#" class="text-white text-decoration-none"> Acheter </a>
                         </button>
@@ -110,12 +115,14 @@
             </div>
             <div class="col h-75">
                 <div class="card">
-                    <img src="#" class="card-img-top" alt="">
+                    <div class="card-header text-primary d-none d-lg-block">
+                        <img src="./assets/images/goku-super-saiyan.png" alt="goku ssj1" style="width: 100px; height: 200px">
+                    </div>
                     <div class="card-body">
-                        <h1 class="card-title">Card title</h1>
-                        <h5 class="card-title text-body-tertiary">Card title</h5>
-                        <h1 class="card-title text-primary">Prix</h1>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h1 class="card-title">Abonnement Absolue</h1>
+                        <h5 class="card-title text-body-tertiary">Sans Pub + Lecture 1 Heure Avant</h5>
+                        <h1 class="card-title text-primary">14.99 €</h1>
+                        <p class="card-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, earum?</p>
                         <button class="btn btn-primary">
                             <a href="#" class="text-white text-decoration-none"> Acheter </a>
                         </button>
@@ -130,65 +137,77 @@
         <div class="container text-center mt-1">
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col">
-                    <img src="../assets/images/2175188.png" height="300" width="300" alt="">
+                    <img class="img-fluid" src="../assets/images/biblio.jpg" alt="bibliothèque">
                 </div>
                 <div class="col accordion" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Chapitre #1
+                                Tokyo ghoul
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aut consequuntur deserunt distinctio doloremque explicabo incidunt ipsum labore, laudantium libero magni modi molestias quidem quo reiciendis saepe tempore veritatis, vitae!                    </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Chapitre #2
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aut consequuntur deserunt distinctio doloremque explicabo incidunt ipsum labore, laudantium libero magni modi molestias quidem quo reiciendis saepe tempore veritatis, vitae!
-                                </div>
+                                <p>Dans la ville de Tokyo, des créatures nommées goules sont apparues et se nourrissent de
+                                    chair humaine pour survivre. Un jour, Ken Kaneki, jeune étudiant, se fait attaquer par
+                                    l'une d'entre elles et subit une grave blessure</p>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    Chapitre #3
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur, error expedita fugiat maiores necessitatibus nobis odit quaerat qui quia quidem sed sunt temporibus. Accusantium distinctio maiores minus quidem vel.
-                                </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Vermeil in gold
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Alto, Le personnage principal, est sur le point d'échouer au cours de magie d'invocation
+                                    et de devoir redoubler l'année, tombe sur un grimoire et trace un cercle magique,
+                                    invoquant le démon scellé Vermeil et en faisant son familier</p>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                                        Chapitre #4
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa doloribus eius esse fugiat labore laborum libero molestias mollitia, natus, nostrum porro quae quam repudiandae saepe sapiente temporibus veniam, voluptate.
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Death Note
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Light Yagami, un jeune étudiant surdoué, ramasse un jour le "Death Note", un carnet
+                                    abandonné par un dieu de la mort, Ryuk, qui apparemment s'ennuyait dans son monde. Il
+                                    suffit d'écrire le nom d'une personne dans ce carnet, et celle-ci meurt.</p>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
-                                        Chapitre #5
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aut consequuntur deserunt distinctio doloremque explicabo incidunt ipsum labore, laudantium libero magni modi molestias quidem quo reiciendis saepe tempore veritatis, vitae!
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Tower of God
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Afin de retrouver Rachel, la seule personne chère à ses yeux, Bam décide de prendre tous
+                                    les risques pour atteindre le sommet d'une mystérieuse tour. Pour passer chaque étage,
+                                    il devra réussir un test complexe dans lequel il jouera à chaque fois sa vie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Mushoku Tensei Jobless Reincarnation
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Un NEET (tout jeune âgé de qui n'est ni en études, ni en emploi, ni en formation) japonais de 34 ans est percuté par un camion en excès de vitesse qui se dirigeait
+                                    vers un groupe d'adolescents mais sauve l'un d'entre eux avant de décéder. Se réveillant
+                                    dans le corps d'un bébé, il se rend compte qu'il a été réincarné dans un monde d'épée et
+                                    de sorcellerie.</p>
                             </div>
                         </div>
                     </div>
@@ -199,7 +218,44 @@
 
     <!--    Avis-->
     <section id="avis" class="bg-light">
-
+        <div class="container">
+            <div class="text-center">
+                <h2><i class="bi bi-stars"></i> Avis </h2>
+                <h5>Avis des utilisateurs</h5>
+            </div>
+            <p class="border">
+                <span>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </span>
+                <span class="fs-3"><br>Bon site<br></span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, sit. <br></span>
+                <span class="fs-6 fst-italic fw-lighter">De Logan le 12/02/2024<br></span>
+            </p>
+            <p class="border">
+                <span>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                </span>
+                <span class="fs-3"><br>Pas assez de titre<br></span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, sit. <br> </span>
+                <span class="fs-6 fst-italic fw-lighter">De Justine le 17/01/2024<br></span>
+            </p>
+            <p class="border">
+                <span>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                </span>
+                <span class="fs-3"><br>Bonne idée, à améliorer <br></span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, sit. <br> </span>
+                <span class="fs-6 fst-italic fw-lighter">De Jean le 10/12/2023<br></span>
+            </p>
+            <p class="border">
+                <span>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </span>
+                <span class="fs-3"><br>Je conseille fortement<br></span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, sit. <br> </span>
+                <span class="fs-6 fst-italic fw-lighter">De Pierre le 3/11/2023<br></span>
+            </p>
+        </div>
     </section>
     <!--    Contact-->
     <section id="contact">
@@ -224,17 +280,23 @@
                     <label for="basic-url" class="form-label">Quell est le thème de votre question ?</label>
                     <div class="input-group">
                         <span class="input-group-text"><i class="bi bi-chat-left-dots"></i></span>
-                        <input type="text" class="form-control" placeholder="Contenu de l'abonement" aria-describedby="basic-addon3 basic-addon4">
+                        <select class="form-select">
+                            <option value="1">Contenu de l'abonement</option>
+                            <option value="1">Prix de l'abonnement</option>
+                            <option value="1">Autre...</option>
+                        </select>
                     </div>
                 </div>
 
                 <div class="input-group mb-4">
                     <textarea class="form-control" placeholder="Votre question..." aria-label="With textarea"></textarea>
                 </div>
+                <button href="#" class="text-dark text-decoration-none bg-body-tertiary"> Acheter </button>
             </div>
         </div>
     </section>
 </main>
+
 <footer>
 
 </footer>
